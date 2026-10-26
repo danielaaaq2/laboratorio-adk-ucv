@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "laboratorio-adk-ucv"
+version = "0.1.0"
+description = ""
+authors = ["Daniela <dallacsall@ucvvirtual.edu.pe>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-adk = "*"
+python-dotenv = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
