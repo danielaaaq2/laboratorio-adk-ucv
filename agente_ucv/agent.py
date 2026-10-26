@@ -71,7 +71,7 @@ def calcular_promedio(numeros: list) -> dict:
     }
 
 root_agent = Agent(
-    model="gemini-3.8-flash",poetry run adk web --port 8000
+    model="gemini-3.8-flash",
     name="agente_ucv",
     description="Agente académico oficial UCV para ingeniería de sistemas",
     instruction="""
